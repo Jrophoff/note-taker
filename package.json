@@ -1,14 +1,22 @@
 {
-    "name": "note-taker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.16.4"
-    }
-  }
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "note taker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Ophoff",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jrophoff/note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jrophoff/note-taker/issues"
+  },
+  "homepage": "https://github.com/Jrophoff/note-taker#readme"
+}
