@@ -36,17 +36,19 @@ app.post('/api/notes', (req, res) => {
     }
 });
 
-app.delete('/api/notes/:id', (req, res) => {
-    try {
-        const notes = fs.readFileSync('./db/db.json', 'utf8');
-        const array = JSON.parse(notes)
-        array.push(req.body);
-        fs.writeFileSync('./db/db.json', JSON.stringify(array));
-        res.json(req.body);
-    } catch (error) {
-        res.send('failed to delete note');
-    }
-});
+// delete function not working yet
+// app.delete('/api/notes/:id', (req, res) => {
+//     try {
+//         const notes = fs.readFileSync('./db/db.json', 'utf8');
+//         const array = JSON.parse(notes)
+        
+//         array.push(req.body);
+//         fs.writeFileSync('./db/db.json', JSON.stringify(array));
+//         res.json(req.body);
+//     } catch (error) {
+//         res.send('failed to delete note');
+//     }
+// });
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './index.html'));
