@@ -32,7 +32,7 @@
 
 ![image](https://user-images.githubusercontent.com/90431294/146654045-556a326f-3cc8-4fd6-b4c9-f6f86b118623.png)
 
-## Link to deployed site:
+## Link
 
  https://glacial-meadow-63052.herokuapp.com/
  
