@@ -9,6 +9,8 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
+- [Link](#link)
 - [Questions](#questions)
     - [GitHub](#github)
     - [Email](#email)
@@ -26,7 +28,7 @@
 
 #### Input notes into the note prompt.
 
-## Screen Shot
+## Screenshot
 
 ![image](https://user-images.githubusercontent.com/90431294/146654045-556a326f-3cc8-4fd6-b4c9-f6f86b118623.png)
 
